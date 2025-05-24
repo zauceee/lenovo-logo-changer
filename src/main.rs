@@ -86,6 +86,7 @@ impl MyApp {
                 ui.label("Language : ");
                 ui.radio_value(&mut self.language, String::from("en"), "English");
                 ui.radio_value(&mut self.language, String::from("zh"), "中文");
+                ui.radio_value(&mut self.language, String::from("pt"), "Portuguese (Portugal)");
             });
             ui.separator();
 
